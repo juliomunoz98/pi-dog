@@ -1,0 +1,61 @@
+.carta {
+  display: flex;
+  background-color: #464646;
+  justify-content: center; /* Centra horizontalmente en la pantalla */
+  align-items: center; /* Centra verticalmente en la pantalla */
+  height: 100vh; /* Establece el 100% de la altura de la ventana para el cuerpo */
+  /* margin: 0; Elimina el margen predeterminado del cuerpo */
+}
+
+.container {
+  margin-top: -5%;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  text-align: center; /* Centra el contenido dentro de la tarjeta horizontalmente */
+  box-shadow: 0 6px 10px rgba(105, 157, 235, 0.883);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.container:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+.container img {
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 6px 10px rgba(105, 157, 235, 0.883);
+  perspective: 100px;
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(360deg) translateZ(0px);
+    /* z-index: 10; */
+  }
+  100% {
+    /* z-index: -10; */
+  }
+  to {
+    transform: rotateY(0deg) translateZ(0px);
+  }
+}
+
+.container h2 {
+  margin: 5px 0;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.container p {
+  margin: 5px 0;
+  color: antiquewhite;
+  font-size: 15px;
+}

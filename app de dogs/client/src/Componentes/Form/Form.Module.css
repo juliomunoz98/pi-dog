@@ -1,0 +1,101 @@
+.fondo {
+  background-color: #7c7c7c;
+}
+.formContainer {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.formContainer p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.formContainer label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="url"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formContainer input[type="text"]:focus,
+.formContainer input[type="url"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.formContainer input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formContainer p {
+  margin: 5px 0;
+}
+
+.formContainer div {
+  margin-bottom: 15px;
+}
+
+.formContainer button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContainer button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.formContainer .warning {
+  border-color: #ff8800;
+}
+
+.formContainer .danger {
+  color: #ff0000;
+}
+
+.temperamentList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.temperamentItem {
+  margin-right: 10px;
+}
+
+.temperamentLabel {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.temperamentCheckbox {
+  margin-right: 5px;
+  cursor: pointer;
+}

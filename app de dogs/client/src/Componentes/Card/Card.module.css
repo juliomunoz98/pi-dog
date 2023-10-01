@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ccc;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 6px 10px rgba(105, 157, 235, 0.883);
+  background-color: #33333370;
+  width: 95%;
+  height: 95%;
+}
+.card:hover {
+  transition: 0.2s;
+  background-color: #75afee54;
+}
+
+.card img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
